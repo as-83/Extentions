@@ -76,8 +76,8 @@ public class Extension {
         set.add(44);
         set.add(444);
 
-        for (Iterator<Integer> iterator = set.iterator(); iterator.hasNext(); ) {
-            System.out.println(iterator.next());
+        for (Integer aSet : set) {
+            System.out.println(aSet);
 
         }
         print(set);
@@ -121,6 +121,7 @@ public class Extension {
         treeMap.put("V", 13);
         treeMap.put("B", 14);
         treeMap.put("B", 14);
+        treeMap.put("B", 14);
 
         Set<Map.Entry<String, Integer>> setOfTreeMaps = treeMap.entrySet();
 
@@ -130,12 +131,12 @@ public class Extension {
         int [] intArr = new int[10];
         Arrays.fill(intArr, 100);
 
-        for (int i = 0; i < intArr.length; i++) {
-            System.out.println(intArr[i]);
+        for (int anIntArr : intArr) {
+            System.out.println(anIntArr);
 
         }
 
-        //ffffffffffffffff
+
 
 
 
